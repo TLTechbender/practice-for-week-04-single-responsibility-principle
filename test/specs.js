@@ -22,7 +22,7 @@ describe("bakeAndSellPies(pieType, pieQuantity, profitMargin)", () => {
   context("apple pies", () => {
     it("bakeAndSellPies('applePie', 5, 2.5) should return print the right ingredients, cost, and revenue", () => {
       bakeAndSellPies("applePie", 5, 2.5);
-      
+
       const expectedPrintOutputs = [
         'Combining ingredients for applePie: pie crust, sugar, butter, apples, cinnamon, eggs',
         'Baked pie 1!',
@@ -47,7 +47,7 @@ describe("bakeAndSellPies(pieType, pieQuantity, profitMargin)", () => {
   context("pumpkin pies", () => {
     it("bakeAndSellPies('pumpkinPie', 2) should return print the right ingredients, cost, and revenue", () => {
       bakeAndSellPies("pumpkinPie", 2);
-      
+
       const expectedPrintOutputs = [
         'Combining ingredients for pumpkinPie: pie crust, sugar, butter, pumpkin, cinnamon, eggs',
         'Baked pie 1!',
@@ -66,7 +66,7 @@ describe("bakeAndSellPies(pieType, pieQuantity, profitMargin)", () => {
   context("cherry pies", () => {
     it("bakeAndSellPies('cherryPie', 7, 1.7) should return print the right ingredients, cost, and revenue", () => {
       bakeAndSellPies("cherryPie", 7, 1.7);
-      
+
       const expectedPrintOutputs = [
         'Combining ingredients for cherryPie: pie crust, sugar, butter, cherries, eggs',
         'Baked pie 1!',
